@@ -1,0 +1,129 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.main-box{
+  margin: 100px 120px;
+}
+
+.first-box-1{
+  width: 350px;
+  float: left;
+}
+
+.first-box-2{
+  margin-top: 20px;
+  margin-right: 100px;
+  float: right;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 800;
+  color: hsl(300, 43%, 22%);
+  margin-left: 20px;
+}
+
+.first-box-2-1{
+  border-radius: 25px;
+  background: hsl(300, 24%, 96%);
+  padding: 20px 50px 20px 50px;
+  margin-bottom: 10px;
+}
+
+.first-box-2-2{
+  border-radius: 25px;
+  background: hsl(300, 24%, 96%);
+  padding: 20px 50px 20px 50px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 50px;
+}
+
+.first-box-2-3{
+  border-radius: 25px;
+  background: hsl(300, 24%, 96%);
+  padding: 20px 50px 20px 50px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 100px;
+}
+
+.comment-box{
+  display: inline-block;
+  clear: both;
+  font-family: 'Spartan', sans-serif;
+  color: hsl(0, 0%, 100%);
+  margin: 50px 0;
+}
+
+.customer{
+  color: hsl(300, 24%, 96%);
+  font-family: 'Spartan', sans-serif;
+  font-weight: 800;
+}
+
+.comment{
+  color: hsl(300, 24%, 96%);
+  font-weight: 400px;
+  padding-top: 20px;
+}
+
+.customer-pic{
+  border-radius: 50px;
+  float: left;
+  margin-right: 20px;
+}
+
+.second-box-1{
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-right: 22px;
+  background: hsl(300, 43%, 22%);
+  padding: 20px;
+  float: left;
+  width: 300px;
+}
+
+.second-box-2{
+  border-radius: 10px;
+  margin-right: 22px;
+  background: hsl(300, 43%, 22%);
+  position: relative;
+  top:40px;
+  float: right;
+  margin-top: 30px;
+  padding: 20px;
+  width: 300px;
+}
+
+.second-box-3{
+  border-radius: 10px;
+  margin-right: 22px;
+  background: hsl(300, 43%, 22%);
+  position: relative;
+  top:20px;
+  float: right;
+  margin-top: 30px;
+  padding: 20px;
+  width: 300px;
+}
+
+body{
+  background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+}
+
+h1{
+  font-family: 'Spartan', sans-serif;
+  font-weight: 800;
+  color: hsl(300, 43%, 22%);
+}
+
+p{
+  font-family: 'Spartan', sans-serif;
+  color: hsl(303, 10%, 53%);
+}
