@@ -151,8 +151,53 @@ h2{
 
 @media (max-width: 1028px) {
 
-  main-img{
-    transform: (0);
+  .main-img{
+    transform: rotate(0);
     position: static;
   }
+
+  #title{
+    text-align: center;
+  }
+}
+
+/* CTA */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.h3-ctn{
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 3rem;
+  padding: 0 5%;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 5%;
+}
+
+#btn2{
+  margin: 15px;
+  /* padding: 1rem; */
+  font-weight: 500;
+}
+
+/* Footer */
+
+#footer{
+  margin: 5% 10%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.icon2{
+  margin: 1%;
+  color: black;
+}
+
+.footer-a{
+  padding: 2%;
 }
