@@ -1,6 +1,9 @@
 #title{
   background-color: #ff4c68;
   color: white;
+  position: relative;
+  z-index: 0;
+  padding-bottom: 100px;
 }
 
 i:hover{
@@ -40,23 +43,27 @@ h1{
   position: relative;
   top: -10px;
   z-index: 3;
+  width: 100%;
 }
 
 .main-img{
   width: 80%;
   padding: 2rem;
   transform: rotate(20deg);
-  /* position: absolute; */
-  /* z-index: 2; */
+  position: absolute;
 }
 
 .btn{
   margin: 10% 5% 5% 0;
 }
 
+
 #features{
-  margin: 10% 5% 10%;
+  padding: 10% 5% 10%;
   align-items: center;
+  position: relative;
+  background-color: white;
+  z-index: 1;
 }
 
 
@@ -88,4 +95,64 @@ h1{
 
 .icon:hover{
   color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-top: 3rem;
+  margin: 2% 10%;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 7.5rem;
+  height: 7.5rem;
+  margin: 1.5rem;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 5%;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.card-deck{
+  width: 100%;
+}
+
+.row{
+  padding-top: 5%;
+}
+
+/* Media Query Breakpoint */
+
+@media (max-width: 1028px) {
+
+  main-img{
+    transform: (0);
+    position: static;
+  }
 }
