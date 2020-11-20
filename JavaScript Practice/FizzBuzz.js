@@ -11,8 +11,9 @@ function FizzBuzz(){
       output.push('Buzz')
   }
   else{
-      console.log(output);
+      output.push(a)
   }
+  console.log(output);
   a=a+1;
 }
 
